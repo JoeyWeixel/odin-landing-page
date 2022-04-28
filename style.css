@@ -3,10 +3,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0px;
 }
 
 img{
-    width: 250px;
+    width: 200px;
 }
 
 .section{
@@ -16,6 +17,7 @@ img{
 .footer{
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
 }
 
 .section1,
@@ -24,20 +26,35 @@ img{
     flex-direction: column;
 }
 
+.section1{
+    background-color: #1F2937;
+}
+
 .section1 .header{
     display: flex;
     justify-content: space-between;
+    padding: 0 2em;
+}
+
+.section1 .header p{
+    color: #F9FAF8;
+    font-style: bold;
+    font-size: 24px;
 }
 
 .section1 .header ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     padding-left: 0px;
     gap: 2em;
 }
 
-li{
+a{
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .section1 .container{
@@ -74,7 +91,8 @@ li{
 
 .section3{
     justify-content: center;
-    margin: auto auto;
+    padding: auto auto;
+    background-color: #E5E7EB;
 }
 
 .section3 .quote{
@@ -95,5 +113,6 @@ li{
     display: flex;
     justify-content: space-between;
     gap: 4em;
+    background-color: #3882F6;
 }
 
