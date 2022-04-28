@@ -59,3 +59,13 @@ img{
     align-self: flex-end;
 }
 
+.section4{
+    justify-content: center;
+}
+
+.section4 .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;
+}
+
