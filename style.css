@@ -43,3 +43,19 @@ img{
 .img-container img{
     border-radius: 10%;
 }
+
+.section3{
+    justify-content: center;
+    margin: auto auto;
+}
+
+.section3 .quote{
+    font-style: italic;
+    align-self: center;
+    font-size: 24px;
+}
+
+.section3 .attribution{
+    align-self: flex-end;
+}
+
