@@ -1,0 +1,45 @@
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img{
+    width: 250px;
+}
+
+.section{
+    display: flex;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.section1,
+.section2,
+.section3{
+    flex-direction: column;
+}
+
+.section2{
+    align-items: center;
+}
+
+.section2 .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+    border-radius: 10%;
+}
