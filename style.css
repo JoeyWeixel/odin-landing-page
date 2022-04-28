@@ -25,8 +25,7 @@ img{
 }
 
 .section1,
-.section2,
-.section3{
+.section2,{
     flex-direction: column;
     height: 400px;
 }
@@ -107,6 +106,7 @@ a{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    flex-direction: column;
 }
 
 .section2 .container{
@@ -134,6 +134,13 @@ a{
     justify-content: center;
     padding: auto auto;
     background-color: #E5E7EB;
+    height: 15em;
+}
+
+.section3 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .section3 .quote{
@@ -144,6 +151,8 @@ a{
 
 .section3 .attribution{
     align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .section4{
