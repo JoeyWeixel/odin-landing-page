@@ -25,7 +25,7 @@ img{
 }
 
 .section1,
-.section2,{
+.section2{
     flex-direction: column;
     height: 400px;
 }
@@ -59,7 +59,7 @@ img{
 
 a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
 }
 
@@ -157,6 +157,8 @@ a{
 
 .section4{
     justify-content: center;
+    color: #E5E7EB;
+    padding: 100px;
 }
 
 .section4 .container{
@@ -164,5 +166,23 @@ a{
     justify-content: space-around;
     gap: 4em;
     background-color: #3882F6;
+    padding: 4em;
+    border-radius: 8px;
 }
 
+.section4 .container .bold{
+    font-weight: 900;
+}
+
+.section4 .container p{
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.section4 .container #sign-up{
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+    width: 100px;
+    font-size: 14px;
+}
