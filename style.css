@@ -24,6 +24,34 @@ img{
     flex-direction: column;
 }
 
+.section1 .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .header ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    gap: 2em;
+}
+
+li{
+    text-decoration: none;
+}
+
+.section1 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.section1 .container .text-button{
+    display: flex;
+    flex-direction: column;
+}
+
 .section2{
     align-items: center;
 }
