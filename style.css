@@ -1,3 +1,7 @@
+*{
+    font-family: 'Helvetica', 'sans-serif';
+}
+
 body{
     font-size: 16px;
     display: flex;
@@ -7,7 +11,7 @@ body{
 }
 
 img{
-    width: 200px;
+    width: 150px;
 }
 
 .section{
@@ -24,16 +28,19 @@ img{
 .section2,
 .section3{
     flex-direction: column;
+    height: 400px;
 }
 
 .section1{
     background-color: #1F2937;
+    padding-bottom: 50px;
+    padding: 0 8em 6em;
+    gap: 4em;
 }
 
 .section1 .header{
     display: flex;
     justify-content: space-between;
-    padding: 0 2em;
 }
 
 .section1 .header p{
@@ -59,14 +66,40 @@ a{
 
 .section1 .container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
     gap: 4em;
+}
+
+.section1 .container img{
+    width: 400px;
 }
 
 .section1 .container .text-button{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.section1 .container .text-button :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.section1 .container .text-button p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.section1 .container .text-button button{
+    padding: .5em 2em;
+    align-self: flex-start;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #E5E7EB;
+    border:1px solid #3882F6 ;
 }
 
 .section2{
@@ -76,6 +109,7 @@ a{
 .section2 .container{
     display: flex;
     flex-direction: row;
+    gap: 2em;
 }
 
 .img-container{
@@ -87,6 +121,7 @@ a{
 
 .img-container img{
     border-radius: 10%;
+    border: 4px solid #3882F6;
 }
 
 .section3{
@@ -111,7 +146,7 @@ a{
 
 .section4 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 4em;
     background-color: #3882F6;
 }
